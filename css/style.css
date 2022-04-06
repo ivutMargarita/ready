@@ -1,0 +1,141 @@
+* { box-sizing: border-box; }
+body {
+  margin: 0;
+  background: #f2f2f2;
+  overflow: hidden;
+}
+header {
+  background-color:#a1a08b;
+  height: 10vh;
+  padding: 0 7vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logotipchik{
+  width: 22vh;
+  background-image: url(/page/Logo.png);
+  padding-left: 0px;
+}
+
+.primary-navigation {
+  display: block;
+  text-align: center;
+  font-size: 16px;
+}
+#navv{
+  list-style: none;
+  margin: 0 auto;
+  /* border-left: 2px solid #83099e; */
+  display: inline-block;
+  padding: 0 30px;
+  position: relative;
+  text-decoration: none;
+  text-align: center;
+  font-family: 'Montserrat';
+  font-weight: 900;
+}
+.nav-button{
+  color: #f6ede4;
+}
+#navv a{
+  color: #f6ede4}
+#navv a:hover{
+  color:#7b2b50;
+}
+.nav-button:hover {
+  color: #7b2b50;
+  cursor: pointer;
+}
+.dropdown {
+  display: none;
+  position: absolute;
+  padding-left: 0;
+  left: 0;
+}
+.dropdown_active {
+  display: block;
+  min-width: 250px;
+  text-align: left;
+  padding-top: 20px;
+  padding-left: 30px;
+  background: #a1a08b;
+  box-shadow: 0px 3px 5px -1px #ccc;
+}
+.dropdownli {
+  clear: both;
+  width: 100%;
+  text-align: left;
+  margin-bottom: 20px;
+  border-style: none;
+  list-style: none;
+}
+.dropdown a1,a2,a3,a4{
+  color: black;
+}
+.dropdownli:hover {
+  padding-left: 10px;
+  transition: all 0.3s ease;
+}
+.dropdown a1:hover{
+  color: #ffe39b;
+  border-left: 2px solid #ffe39b;
+  padding-left: 10px;
+}
+.dropdown a2:hover{
+  color: #d7bffc;
+  border-left: 2px solid #d7bffc;
+  padding-left: 10px;
+}
+.dropdown a3:hover{
+  color: #bff9c2;
+  border-left: 2px solid #bff9c2;
+  padding-left: 10px;
+}
+
+.dropdown a4:hover{
+  color: #a4dfff;
+  border-left: 2px solid #a4dfff;
+  padding-left: 10px;
+}
+a {
+  text-decoration: none;
+}
+a:hover {
+  color: #3CA0E7;
+}
+
+ul li ul li{
+  transition: all 0.3s ease;
+}
+
+section{
+  height: 80vh;
+}
+
+footer{
+
+  height: 10vh;
+  background-color:#a1a08b;
+  padding: 0 30vw;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.our_image{
+  width: 16vw;
+  display: flex;
+  justify-content: space-around;
+}
+.image{
+  width: 40px;
+  height: 40px;
+}
+@media (max-width: 900px) {
+  .seti{
+    width: 5vh;
+    height: 5vh;
+  }
+}
